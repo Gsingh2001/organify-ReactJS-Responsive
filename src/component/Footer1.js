@@ -7,7 +7,7 @@ import { addDoc, collection } from 'firebase/firestore';
 
 
 
-const Footer = () => {
+const Footer1 = () => {
 
   const [email, setEmail] = useState();
 
@@ -62,4 +62,4 @@ return (
 );
 }
 
-export default Footer;
+export default Footer1;

@@ -5,7 +5,7 @@ import FeatureList from '../component/FeatureList'
 import Advertisement from '../component/Advertisement'
 import ShopBanner from '../component/ShopBanner'
 import LatestNews from '../component/LatestNews'
-import Footer from '../component/Footer'
+import Footer1 from '../component/Footer1'
 
 function Home() {
     return (
@@ -16,7 +16,7 @@ function Home() {
             <Advertisement/>
             <ShopBanner/>
             <LatestNews/>
-            <Footer/>
+            <Footer1/>
         </div>
     )
 }

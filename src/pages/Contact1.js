@@ -2,11 +2,11 @@ import React from 'react'
 import Header from '../component/Header'
 import Location from '../component/Location'
 import Map from '../component/Map'
-import Footer from '../component/Footer'
+import Footer1 from '../component/Footer1'
 import FormContact from '../component/FormContact'
 
 
-function Contact() {
+function Contact1() {
     return (
         <div>
         <Header />
@@ -25,9 +25,9 @@ function Contact() {
         <FormContact/>
         <Location/>
         <Map/>
-        <Footer/>
+        <Footer1/>
     </div>
     )
 }
 
-export default Contact
+export default Contact1

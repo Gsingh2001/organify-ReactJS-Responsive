@@ -1,2 +1,2 @@
-# organify-ReactJS-Resposive
+# Organify-ReactJS-Firebase
  

@@ -3,9 +3,9 @@ import Header from '../component/Header'
 import FeaturedSection from '../component/FeaturedSection'
 import ShopBanner from '../component/ShopBanner'
 import Team from '../component/Team'
-import Footer from '../component/Footer'
+import Footer1 from '../component/Footer1'
 
-function About() {
+function About1() {
     return (
         <div>
             <Header />
@@ -24,9 +24,9 @@ function About() {
             <FeaturedSection />
             <ShopBanner />
             <Team />
-            <Footer />
+            <Footer1 />
         </div>
     )
 }
 
-export default About
+export default About1
