@@ -6,13 +6,13 @@ import { getStorage } from "firebase/storage";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCakTqsJNozn4KZE6XjVYebxgxy5xHzCUY",
-    authDomain: "ecom-4a2c9.firebaseapp.com",
-    projectId: "ecom-4a2c9",
-    storageBucket: "ecom-4a2c9.appspot.com",
-    messagingSenderId: "118805042997",
-    appId: "1:118805042997:web:20a0f0b0be28c19ecc5e7c"
-  };
+  apiKey: "AIzaSyC0KZTGn2bMt4w6s0kjMl5I0QcmJUCGWqM",
+  authDomain: "organify-cb4d8.firebaseapp.com",
+  projectId: "organify-cb4d8",
+  storageBucket: "organify-cb4d8.appspot.com",
+  messagingSenderId: "828680303895",
+  appId: "1:828680303895:web:33c1efe52be9e66a0e3352"
+};
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app)

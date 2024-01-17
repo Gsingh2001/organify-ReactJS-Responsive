@@ -10,6 +10,7 @@ import CheckOut from './component/CheckOut';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import Profile from './pages/Profile';
+import Addproduct from './component/AddProduct';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/addproduct" element={<Addproduct />} />
         <Route path="*" element={<Pnf />} />
 
       </Routes>

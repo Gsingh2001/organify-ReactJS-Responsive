@@ -1,0 +1,12 @@
+.cart-icon-css {
+    
+    width: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 3px;
+    right: 8px;
+    text-decoration: none;
+}
