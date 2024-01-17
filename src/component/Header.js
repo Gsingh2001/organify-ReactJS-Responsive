@@ -7,7 +7,7 @@ function Header() {
             {/* Navbar section */}
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <Link className="navbar-brand"  to="/" >
+                    <Link className="navbar-brand" to="/" >
                         <img src="assets/logo-2.png" height="120px" width="120px" className="img-fluid" alt="Logo" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,6 +21,25 @@ function Header() {
                             <li className="nav-item">
                                 <Link className="nav-link text-dark" to="/Contact">Contact</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link text-dark" to="/Shop">Shop</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link text-dark" to="/login">Login</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link text-dark" to="/Signup">Signup</Link>
+                            </li>
+
+
+                            <li>
+                                <Link className="nav-link text-dark" to="/Cart"><i class="fa-solid fa-cart-shopping"></i></Link>
+                            </li>
+
+                            <li>
+                                <Link className="nav-link text-dark" to="/profile"> <i class="fa-solid fa-user"></i></Link>
+                            </li>
+                           
                         </ul>
                     </div>
                 </div>

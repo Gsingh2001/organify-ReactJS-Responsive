@@ -1,8 +1,17 @@
 import React from 'react'
+import Header from '../component/Header'
+import Footer1 from '../component/Footer1'
+import BreadcrumbSection from '../component/BreadcrumbSection'
+
 
 function Shop() {
     return (
-        <div></div>
+        <div>
+            <Header/>
+            <BreadcrumbSection subtitle="Fresh and Organic" title="Shop" />
+            
+            <Footer1/>
+        </div>
     )
 }
 

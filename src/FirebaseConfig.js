@@ -1,17 +1,20 @@
-
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAZ_mhIxadgDKji9vG0jPyV7IPAGe5SWWE",
-  authDomain: "email-58788.firebaseapp.com",
-  databaseURL: "https://email-58788-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "email-58788",
-  storageBucket: "email-58788.appspot.com",
-  messagingSenderId: "361966386140",
-  appId: "1:361966386140:web:fe7078be749ebbcf73ad19"
-};
+    apiKey: "AIzaSyCakTqsJNozn4KZE6XjVYebxgxy5xHzCUY",
+    authDomain: "ecom-4a2c9.firebaseapp.com",
+    projectId: "ecom-4a2c9",
+    storageBucket: "ecom-4a2c9.appspot.com",
+    messagingSenderId: "118805042997",
+    appId: "1:118805042997:web:20a0f0b0be28c19ecc5e7c"
+  };
 
-
-export const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app)
+export const storage = getStorage(app)
+export const db = getFirestore(app)
