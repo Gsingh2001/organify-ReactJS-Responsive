@@ -6,12 +6,12 @@ import { getStorage } from "firebase/storage";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC0KZTGn2bMt4w6s0kjMl5I0QcmJUCGWqM",
-  authDomain: "organify-cb4d8.firebaseapp.com",
-  projectId: "organify-cb4d8",
-  storageBucket: "organify-cb4d8.appspot.com",
-  messagingSenderId: "828680303895",
-  appId: "1:828680303895:web:33c1efe52be9e66a0e3352"
+    apiKey: "AIzaSyCwIw0c29A6mR1jXy-sMnVi842ulkkJ-TU",
+    authDomain: "sasta-aeeb9.firebaseapp.com",
+    projectId: "sasta-aeeb9",
+    storageBucket: "sasta-aeeb9.appspot.com",
+    messagingSenderId: "121090616764",
+    appId: "1:121090616764:web:9e92ffc10af6c175bdcfb9"
 };
 
 const app = initializeApp(firebaseConfig);
